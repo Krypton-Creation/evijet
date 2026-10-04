@@ -29,7 +29,6 @@ const POSITIVES = [
   'Live market breakdowns from experienced analysts, in real time',
   'A room full of your people. The network that determines your trading level',
   'Access to the Weltrade Copy Trading Platform, even if you opened your first chart yesterday',
-  'Real giveaways: phones, power banks, refreshments',
 ]
 
 function BoldTail({ text, tail }: { text: string; tail: string }) {
@@ -64,7 +63,7 @@ export default function LandingPage() {
                 LIVE TRADING EXPERIENCE
               </div>
               <h1 className="text-[clamp(34px,7vw,60px)] leading-[1.1] tracking-[-0.02em] font-bold text-white max-w-xl">
-                Kano, <span className="text-gradient-headline-dark">It's Your Turn.</span>
+                ENUGU, <span className="text-gradient-headline-dark">It's Your Turn.</span>
               </h1>
             </div>
 
@@ -79,12 +78,12 @@ export default function LandingPage() {
               </p>
               <p className="text-[clamp(15px,1.2vw,18px)] leading-[1.6] text-blue-100/80 max-w-xl">
                 Benin came out. Port Harcourt came out. Jos, Ibadan, Ghana, Lagos, Enugu, Abuja and Kaduna
-                came out. Now the biggest synthetic trading event in the region lands in Kano.
+                came out. Now the biggest trading bootcamp in the region lands in Enugu.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 bg-white/10 border border-white/10 rounded-3xl px-[clamp(18px,3vw,28px)] py-4">
-                <DetailItem icon={Calendar} text="Saturday, October 17" dark />
-                <DetailItem icon={Clock} text="9:00 AM" dark />
-                <DetailItem icon={MapPin} text="Central Hotel, No 1, Bompa Road by AA Rano, Kano" dark />
+                <DetailItem icon={Calendar} text="Monday 12th – Friday 16th October, 2026" dark />
+                <DetailItem icon={Clock} text="10:00 AM – 2:00 PM daily" dark />
+                <DetailItem icon={MapPin} text="Golden Top Hotel, 16 Abakaliki Crescent, Okpara Avenue GRA, Enugu" dark />
               </div>
               <Countdown />
               <p className="text-white font-semibold">
@@ -117,7 +116,7 @@ export default function LandingPage() {
                 )
               })}
             </div>
-            <CtaButton scrollTo="hero-form">RESERVE MY FREE SEAT &rarr;</CtaButton>
+            <CtaButton scrollTo="hero-form">REGISTER FOR THE BOOK CAMP &rarr;</CtaButton>
           </div>
         </section>
 
@@ -134,8 +133,8 @@ export default function LandingPage() {
               <Gallery />
             </Reveal>
             <p className="text-[clamp(15px,1.2vw,18px)] leading-[1.6] text-wt-gray-text max-w-2xl">
-              Packed halls. Live sessions. Traders connecting. This is what's coming to Kano on
-              October 17.
+              Packed halls. Live sessions. Traders connecting. This is what's coming to Enugu from
+              Monday 12th – Friday 16th October, 2026
             </p>
           </div>
         </section>
@@ -168,7 +167,7 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <div className="flex flex-col gap-3 bg-wt-blue/[0.03] rounded-3xl p-4 sm:p-6">
-                  <h3 className="font-bold text-wt-blue-deep">October 17 looks like:</h3>
+                  <h3 className="font-bold text-wt-blue-deep">The Boot Camp looks like:</h3>
                   {POSITIVES.map((line) => (
                     <Card
                       key={line}
@@ -196,25 +195,25 @@ export default function LandingPage() {
           <div className="candlestick-bg" />
           <Reveal className="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center gap-6">
             <h2 className="text-[clamp(28px,5vw,44px)] leading-[1.15] font-bold text-white max-w-2xl">
-              One Saturday. One room. <span className="text-wt-gold">Zero excuses.</span>
+              One Week. One room. <span className="text-wt-gold">Zero excuses.</span>
             </h2>
             <p className="text-[clamp(15px,1.2vw,18px)] leading-[1.6] text-blue-100/80 max-w-2xl">
-              The venue is on Bompa Road. The entry is free. The date is set. The only question left is
+              The venue is Golden Top Hotel, 16 Abakaliki Crescent, Okpara Avenue GRA, Enugu. The entry is $20 for Affiliate clients: you registered your Weltrade account using Evijet's link and $50 for Non-affiliates: you already have a Weltrade account that wasn't opened through Evijet's link. The date is set. The only question left is
               whether your seat will have you in it, or someone else.
             </p>
             <div className="flex flex-col gap-2 bg-white/10 border border-white/10 rounded-3xl px-[clamp(18px,3vw,28px)] py-4 w-full max-w-md">
-              <DetailItem icon={MapPin} text="Central Hotel, No 1, Bompa Road by AA Rano, Kano" dark />
-              <DetailItem icon={Calendar} text="Saturday, October 17, 2026" dark />
-              <DetailItem icon={Clock} text="9:00 AM prompt" dark />
+              <DetailItem icon={MapPin} text="Golden Top Hotel, 16 Abakaliki Crescent, Okpara Avenue GRA, Enugu" dark />
+              <DetailItem icon={Calendar} text="Monday 12th – Friday 16th October, 2026" dark />
+              <DetailItem icon={Clock} text="10:00 AM – 2:00 PM daily" dark />
             </div>
             <CtaButton scrollTo="hero-form">RESERVE MY FREE SEAT NOW &rarr;</CtaButton>
             <p className="text-blue-100/60 text-sm">
-              Free entry. Limited seats. First come, first seated.
+              Paid Bootcamp. Limited seats. First come, first seated.
             </p>
           </Reveal>
         </section>
 
-        <MiniFooter />
+        
       </main>
     </>
   )
