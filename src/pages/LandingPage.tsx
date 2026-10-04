@@ -213,7 +213,7 @@ export default function LandingPage() {
           </Reveal>
         </section>
 
-        
+        <MiniFooter />
       </main>
     </>
   )
