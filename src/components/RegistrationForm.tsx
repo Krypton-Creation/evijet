@@ -46,17 +46,18 @@ export default function RegistrationForm() {
       className="w-full max-w-md mx-auto lg:mx-0 bg-wt-white rounded-3xl shadow-card p-[clamp(18px,3vw,28px)] flex flex-col gap-5 scroll-mt-24"
     >
       <div className="flex flex-col gap-1 text-left">
-        <h2 className="text-xl font-bold text-wt-blue-deep">Reserve Your Free Seat</h2>
+        <h2 className="text-xl font-bold text-wt-blue-deep">Register for the Boot Camp</h2>
         <p className="text-wt-gray-text text-sm">
-          9:00 AM, Saturday October 17. Central Hotel, Bompa Road, Kano.
+          Monday 12th – Friday 16th October, 2026 · Golden Top Hotel, Enugu
         </p>
       </div>
       <div className="flex items-start gap-3 rounded-2xl border-2 border-wt-gold bg-wt-gold/15 px-4 py-3.5">
         <AlertTriangle size={20} className="shrink-0 mt-0.5 text-wt-gold" />
         <p className="text-[13px] leading-[1.5] text-wt-blue-deep">
-          <span className="font-bold">Already registered for this event? Please do not register again.</span>{' '}
+          <span className="font-bold">Already registered for this bootcamp? Please do not register again.</span>{' '}
           <span className="font-normal">
             Registering more than once causes duplicate entries and can affect your seat confirmation.
+            <span className="font-bold">This is a paid, training-focused boot camp. Gift items and giveaways will not be shared.</span>{' '}
           </span>
         </p>
       </div>
