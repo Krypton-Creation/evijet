@@ -73,7 +73,7 @@ export default function LandingPage() {
 
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 lg:col-start-1 lg:row-start-2">
               <p className="text-[clamp(15px,1.2vw,18px)] leading-[1.6] text-blue-100/80 max-w-xl">
-                The Kano Synthetic Trading Summit '26 is here. One room. Hundreds of traders. Live
+                The Enugu bootcamp '26 is here. One room. Hundreds of traders. One full week. Live
                 market action.
               </p>
               <p className="text-[clamp(15px,1.2vw,18px)] leading-[1.6] text-blue-100/80 max-w-xl">
