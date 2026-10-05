@@ -87,7 +87,7 @@ export default function LandingPage() {
               </div>
               <Countdown />
               <p className="text-white font-semibold">
-                <span className="font-bold">Affiliate clients: you registered your Weltrade account using Evijet's link -	$20</span>{' '}
+                <span className="font-bold">Affiliate clients: you registered your Weltrade account using Evijet's link -	$20</span>{' '} <br />
                 <span className="font-bold">Non-affiliates: you already have a Weltrade account that wasn't opened through Evijet's link - $50</span>{' '}
               </p>
             </div>
