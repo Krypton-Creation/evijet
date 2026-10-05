@@ -87,7 +87,8 @@ export default function LandingPage() {
               </div>
               <Countdown />
               <p className="text-white font-semibold">
-                Entry is 100% FREE. Seats are not. Once the hall is full, the doors close.
+                <span className="font-bold">Affiliate clients: you registered your Weltrade account using Evijet's link -	$20</span>{' '}
+                <span className="font-bold">Non-affiliates: you already have a Weltrade account that wasn't opened through Evijet's link - $50</span>{' '}
               </p>
             </div>
           </div>
@@ -206,7 +207,7 @@ export default function LandingPage() {
               <DetailItem icon={Calendar} text="Monday 12th – Friday 16th October, 2026" dark />
               <DetailItem icon={Clock} text="10:00 AM – 2:00 PM daily" dark />
             </div>
-            <CtaButton scrollTo="hero-form">RESERVE MY FREE SEAT NOW &rarr;</CtaButton>
+            <CtaButton scrollTo="hero-form">REGISTER FOR THE BOOTCAMP NOW &rarr;</CtaButton>
             <p className="text-blue-100/60 text-sm">
               Paid Bootcamp. Limited seats. First come, first seated.
             </p>
