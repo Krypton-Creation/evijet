@@ -127,7 +127,7 @@ export default function RegistrationForm() {
             >
               Terms
             </Link>
-            , and consent to being contacted about this event by Telegram and email.
+            , and consent to being contacted about this event by WhatsApp and Email.
           </span>
         </label>
         <p className="text-[13px] leading-[1.5] text-wt-blue-deep">
@@ -142,7 +142,7 @@ export default function RegistrationForm() {
           {submitting ? 'Reserving your seat...' : 'RESERVE MY SEAT & JOIN ON TELEGRAM'}
         </button>
         <p className="text-center text-wt-gray-text text-[13px]">
-          Free entry. You will be taken to our Telegram community instantly.
+          Free entry. You will be taken to our Community instantly.
         </p>
       </form>
     </div>
