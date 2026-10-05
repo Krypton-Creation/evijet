@@ -19,13 +19,13 @@ export default function Navbar() {
       >
         <span className="inline-flex items-center gap-2 font-bold text-wt-blue-deep text-lg tracking-tight">
           <LiveDot />
-          Weltrade
+          Evijet Academy
         </span>
         <a
           href="#hero-form"
           className="btn-shine bg-gradient-brand text-white font-semibold text-sm rounded-xl px-4 py-2.5 shadow-md transition-transform duration-150 hover:scale-[1.02] active:scale-[0.98]"
         >
-          Reserve Free Seat
+          Reserve My Seat
         </a>
       </nav>
     </div>
